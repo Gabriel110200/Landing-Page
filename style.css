@@ -1,0 +1,299 @@
+*{
+    margin:0; 
+    padding:0;
+}
+
+body{
+    text-align:center; 
+    font-family: arial; 
+    font-size:1em; 
+    background-color:#e7e5e5;  
+    
+   
+}  
+
+header{ 
+    background-color:#e7e5e5;
+    position:-webkit-sticky; 
+    position:sticky; 
+    top:0px;
+}
+header .image{
+    min-width:450px; 
+    
+}
+header img{
+    width:380px; 
+    height:50px; 
+    margin-top:20px; 
+   
+}
+ 
+nav{
+    border:5px solid red;
+}
+
+header  ul{
+
+    list-style-type: none;  
+    margin:20px; 
+   
+}  
+
+header ul li{
+    margin-bottom:5px;
+}
+
+header a{
+    text-decoration:none;  
+    color:black;
+} 
+
+header a:hover{
+    text-decoration:underline; 
+    
+}   
+
+main{
+    display:flex; 
+    flex-direction: column; 
+    align-items: center;
+}
+
+
+.subscription h1{ 
+    margin-bottom:20px; 
+    font-family: Roboto; 
+    font-size:1.6em;
+} 
+
+.subscription{  
+    display:flex; 
+    flex-direction:column; 
+    margin-bottom:100px; 
+    margin-top:30px;
+    justify-content: center; 
+    align-items:center;
+} 
+
+.subscription input{
+    width:300px;  
+    padding:5px;
+    margin-bottom:10px;
+} 
+
+.subscription button{
+  /*  width:150px; */ 
+    background-color:rgba(253, 239, 34, 0.993);  
+    font-weight:bold; 
+    text-transform:uppercase; 
+    border:none;
+    color:black; 
+    font-weight:bold;  
+    font-size: 1em;
+    outline:none;    
+    padding:5px 5px 5px 20px; 
+    
+    
+    
+    
+}    
+
+.subscription button:hover{
+    background-color:orange; 
+    cursor:pointer;
+} 
+
+
+
+.main-content{
+    max-width:100% ; 
+    width:1200px;
+    display:flex; 
+    flex-direction:column; 
+    align-items:center;
+}
+
+
+.description{
+    
+    height:500px;  
+    width:1040px; 
+    max-width:100%;
+    display:flex; 
+    flex-direction: column;  
+    justify-content:space-around;  
+    align-content:flex-start;  
+    text-align:center; 
+   
+    
+    
+    
+} 
+
+
+.objectives{
+    display:flex;   
+    flex-direction:column;
+    justify-content:flex-start;
+
+}
+
+
+main h1{
+    font-size:1.7em;
+} 
+
+iframe{
+    margin-bottom: 30px;
+} 
+
+.tables{
+    display:flex; 
+    flex-direction:column; 
+    align-items:center;  
+    max-width:1040px;  
+    width:100%;
+  
+
+}
+
+
+.priceTable{
+    border:1px solid black; 
+    width:300px; 
+    margin-bottom:10px; 
+  
+} 
+
+.priceTable h1{
+    background-color:#ccc; 
+    font-size:1.2em; 
+    margin-bottom:10px;
+    padding:10px; 
+    font-family:Georgia, 'Times New Roman', Times, serif;
+} 
+
+
+.priceTable span{
+    font-weight:bold; 
+    font-size:1.4em; 
+    display:block; 
+    margin-bottom:10px;
+} 
+
+.priceTable p{
+    margin-bottom:5px;
+} 
+
+.tables button{
+    background-color:rgb(255, 208, 0); 
+    text-transform: uppercase; 
+    padding:10px 20px; 
+    outline:none; 
+    border:none; 
+    margin-bottom:15px; 
+    margin-top:30px; 
+} 
+
+
+.tables button:hover{
+    cursor:pointer; 
+    background-color:orange;
+} 
+
+
+footer{
+    background-color:#ccc; 
+    display:flex; 
+    flex-direction:column; 
+    align-items:flex-end; 
+    padding:10px; 
+    width:99%;
+} 
+
+
+footer ul{
+    display:flex; 
+    flex-direction:row; 
+    list-style-type: none; 
+   
+
+} 
+
+footer  ul li{
+    margin-right:20px; 
+    
+} 
+
+footer a{
+    color:black; 
+    text-decoration:none;
+} 
+
+footer a:hover{
+    text-decoration:underline; 
+    cursor:pointer;
+} 
+
+#copyright{
+    
+    margin-right:15px; 
+    margin-top:10px; 
+    font-size:0.9em; 
+    color:#333;
+} 
+
+@media(min-width:550px){
+    
+    .objectives{
+        text-align:left; 
+        margin-left:10px;
+    }
+
+
+} 
+
+@media(min-width:605px){
+    header{
+        display:flex; 
+        flex-direction:row; 
+        justify-content:space-around; 
+        align-items:center;
+    }
+
+} 
+
+@media(min-width:650px) 
+{ 
+
+    
+
+    header ul{ 
+        display:flex;
+        flex-direction:row;   
+        width:90%;  
+        max-width:400px;
+      
+        justify-content: space-between;
+       
+        
+    } 
+
+    header ul li{
+        margin-right:10px;
+    }
+
+} 
+
+
+@media(min-width:800px) 
+{
+    .tables{
+        flex-direction:row; 
+        justify-content:space-around;  
+        margin-right:10px; 
+        
+       
+    }
+}
