@@ -1,5 +1,5 @@
 # Landing-Page
- A simple landing page using html and css
+ A simple and responsive landing page using html and css
  
 Here's a link to my  website: https://gabriel110200.github.io/Landing-Page/ 
 
